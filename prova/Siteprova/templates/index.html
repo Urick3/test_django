@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+  <script src="{% static 'assets/js/bootstrap.bundle.js' %}"></script>
+  <style>
+    @media screen and (max-width: 450px) {
+  .site-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: lightgray;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  .right img {
+    margin-left: 10px;
+  }
+}
+  </style>
+</head>
+<body>
+  <!--Card-->
+    <div class="card text-bg-dark" style="text-align: center; display: flex;" >
+        <img src="{% static 'assets/img/imglay.png' %}" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <img class="logo" style="padding: 45px;" src="{% static 'assets/img/logo-inverse-125x45.png' %}" alt="">
+          <h5 class="card-title" style="font-size: 40px; padding-top: 100px;">Welcome to<br></h5>
+           <h6 class="card-title" style="font-weight: bold; font-size: 70px;"> CardoCoin</h6>
+          <p class="card-text" style="font-family: 'Courier New', Courier, monospace; font-size: 14px; padding-bottom: 50px;" >A PERFECT TEMPLATE FOR BOTH<br>
+            CORPORATE AND CREATIVE PROJECTS.</p>
+            <button type="button" class="btn btn-primary"style="background-color: inherit; margin-top: 30px; background-color: #3cc8c8; border-color: #3cc8c8; padding: 15px 25px; font-size: 12px; line-height: 1.5;" >BUY CARDOCOIN</button>
+        </div>
+      </div>
+  <!--FimCard-->
+      <br> 
+  <!--Cabeça-->    
+  <div class="background" style="background-color:#f4f4f4; padding: 100px 0; background-size: cover; background-position: center center;">
+    <div style="text-align: center;"> 
+       <a style="font-size: 12px; font-weight: 700; color: darkgray; font-family: Arial, Helvetica, sans-serif;">MORE THAN 3 STUNNING LAYOUTS</a> 
+       <br>
+       <a style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">CardoCoin has everything you need to launch your site<br>
+        within next few days or even hours!</a> 
+    </div>   
+  <!--FimCabeça-->    
+  <br> <br> 
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/home1.jpg' %}" width="370" height="330">
+          <br> <br> <br>
+          <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Home Variant 1</a>
+        </div>
+        <div class="col">
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/home2.jpg' %}" width="370" height="330">
+          <br> <br> <br>
+          <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Variant 2</a>
+        </div>
+        <div class="col">
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/home3.jpg' %}" width="370" height="330">
+          <br> <br> <br>
+          <a style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Home Variant 3</a>
+        </div>
+        <div class="col">
+          <br> <br> <br>
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/coming-soon-370x330.jpg' %}" width="370" height="330">
+        </div>
+        <div class="col">
+          <br> <br> <br>
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/coming-soon-370x330.jpg' %}" width="370" height="330">
+        </div>
+        <div class="col">
+          <br> <br> <br>
+          <img style="box-shadow: 5px 10px 8px #888888" src="{% static 'assets/img/coming-soon-370x330.jpg' %}" width="370" height="330">
+        </div>
+      </div>
+    </div>
+  </div>
+    <br> 
+    <div style="text-align: center; padding-top: 50px;"> 
+      <a style="font-size: 12px; font-weight: 700; color: darkgray; font-family: Arial, Helvetica, sans-serif; ">DESIGNED FOR YOU</a> 
+      <br>
+      <a style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Cardocoin offers a wide variety of useful features for<br>
+         establishing your new website</a> 
+   </div>
+   <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <img src="{% static 'assets/img/retina.png' %}">
+        <p><strong>Retina Ready</strong></p>
+        <a style="margin-top: 10px; font-size: 0; line-height: 0; display: inline-block; width: 45px; height: 3px; background: #3cc8c8;">__</a><br>
+        <a>Cardocoin is fully responsive and it
+          perfectly fits all kinds of devices and
+           displays.</a>
+      </div>
+      <div class="col">
+        <img src="{% static 'assets/img/premium.png' %}">
+        <p><strong>Premium Images</strong></p>
+        <a style="margin-top: 10px; font-size: 0; line-height: 0; display: inline-block; width: 45px; height: 3px; background: #3cc8c8;">__</a><br>
+        <a>Save more than $35 on awesome<br>
+           premium images included with<br>
+            template demo.</a>
+      </div>
+      <div class="col">
+        <img src="{% static 'assets/img/high.png' %}">
+        <p><strong>High-Speed</strong></p>
+        <a style="margin-top: 10px; font-size: 0; line-height: 0; display: inline-block; width: 45px; height: 3px; background: #3cc8c8;">__</a><br>
+        <a>Enjoy the increased performance and<br>
+           fast website loading speed with<br>
+            CardoCoin.</a>
+      </div>
+      <div class="col">
+        <img src="{% static 'assets/img/free.png' %}">
+        <p><strong>Free Updates</strong></p>
+        <a style="margin-top: 10px; font-size: 0; line-height: 0; display: inline-block; width: 45px; height: 3px; background: #3cc8c8;">__</a><br>
+        <a>This template is offered with free<br>
+           lifetime updates to keep your<br>
+            website stable.</a>
+      </div>
+    </div>
+  </div>
+  <br> <br> <br> 
+  <!--Card-->
+  <div class="card text-bg-dark" style="text-align: center;">
+    <img src="{% static 'assets/img/layout2.png' %}" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title" style="padding-top: 100px; font-size: 50px;">Efficient Support<br>
+        When <strong>You</strong> Need It</h5>
+      <p class="card-text">Get the top-notch 24/7 support and feel free to check the detailed<br>
+        template documentation whenever You need assistance.</p>
+        <button type="button" class="btn btn-primary"
+        style="background-color: inherit; margin-top: 30px; background-color: #3cc8c8; border-color: #3cc8c8; padding: 15px 25px; font-size: 12px; line-height: 1.5;">LEARN MORE</button>
+    </div>
+  </div>
+    <!--FimCard-->
+  <div style="text-align: center; padding-top: 50px;"> 
+    <a style="font-size: 12px; font-weight: 700; color: darkgray; font-family: Arial, Helvetica, sans-serif; ">HAVE A QUESTION?</a> 
+    <br>
+    <a style="font-size: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Feel free to browse the FAQ section below or<br>
+      contact our support to know more about Cardocoin!</a> 
+ </div>
+ <br> <br>
+ <!--Accordion-->
+ <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-left: 250px; margin-right: 250px;">
+  <div class="accordion-item" >
+    <h2 class="accordion-header" >
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;">
+        <a style="color: #3ccccc; font-size: 40px;">01</a><div>&nbsp;</div> What am I allowed to do with the templates?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body" >
+        You may build a website using the template in any way you like. You may not resell or redistribute templates (like we do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products are the property of content providing companies and individuals. You are also not allowed to make more than one project using the same template (you have to purchase the same template once more).      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 20px;">
+        <a style="color: #3ccccc; font-size: 40px;">02</a> <div>&nbsp;</div>What do I recive when I order a template from you?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        After you complete the payment via our secure form you will receive the instructions for downloading the product. The source files in the download package can vary based on the type of the product you have purchased.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 20px;">
+        <a style="color: #3ccccc; font-size: 40px;">03</a> <div>&nbsp;</div>What are the advantages of purchasing a website template?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        The major advantage is price: You get a high quality design for just $20-$70. You don’t have to hire a web designer or web design studio. Second advantage is time frame: It usually takes 5-15 days for a good designer to produce a web page of such quality.      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-size: 20px;">
+        <a style="color: #3ccccc; font-size: 40px;">04</a><div>&nbsp;</div> In what formats are you templates available?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®.</div>
+    </div>
+  </div>
+</div>
+<br> <br>
+    <footer style= "background-color: #0c1424;color: grey; text-align: center; height: 170px; padding-top: 75px;">
+      <a>Urick Carpanez ©  2024. All Rights Reserved.</a>
+    </footer>
+</body>
+</html>
